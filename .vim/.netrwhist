@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/data/egao/depot/webdev/acdscloud/main/cloud/qdata'
+let g:netrw_dirhist_2='/data/egao/depot/webdev/acdscloud/main/cloud/build'
+let g:netrw_dirhist_3='/data/egao.cmode/depot/webdev/acdscloud/main/cloud/api'
+let g:netrw_dirhist_4='/data/egao'
+let g:netrw_dirhist_5='/data/egao/depot/webdev/acdscloud/main/cloud/planner'
+let g:netrw_dirhist_6='/data/egao'
+let g:netrw_dirhist_7='/data/egao/depot/webdev/acdscloud/main/templates'
+let g:netrw_dirhist_8='/data/egao/depot/webdev/acdscloud/main/cloud/crashreporter'

@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/u0/ewgao/public_html/private/cs349/a3/js'
+let g:netrw_dirhist_2='/u0/ewgao/public_html/private/cs349/a3/js/unit_tests'
+let g:netrw_dirhist_3='/u0/ewgao/public_html/private/cs349'
+let g:netrw_dirhist_4='/u0/ewgao/public_html/private/cs349/a1'
+let g:netrw_dirhist_5='/u0/ewgao/public_html/private/cs349/a1/js'
+let g:netrw_dirhist_6='/u0/ewgao/public_html/private/cs349/a1/js/unit_tests'
+let g:netrw_dirhist_7='/u0/ewgao'
+let g:netrw_dirhist_8='/u0/ewgao/public_html/private/cs349/a2'
+let g:netrw_dirhist_9='/u0/ewgao/public_html/private/cs349/a2/css'
