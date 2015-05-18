@@ -1,6 +1,6 @@
 " ~/.vim/sessions/default.vim:
 " Vim session script.
-" Created by session.vim 2.7 on 23 April 2015 at 22:43:43.
+" Created by session.vim 2.7 on 18 May 2015 at 14:03:00.
 " Open this file in Vim and run :source % to restore your session.
 
 set guioptions=aegimrLtT
@@ -9,8 +9,8 @@ if exists('g:syntax_on') != 1 | syntax on | endif
 if exists('g:did_load_filetypes') != 1 | filetype on | endif
 if exists('g:did_load_ftplugin') != 1 | filetype plugin on | endif
 if exists('g:did_indent_on') != 1 | filetype indent on | endif
-if &background != 'light'
-	set background=light
+if &background != 'dark'
+	set background=dark
 endif
 if !exists('g:colors_name') || g:colors_name != 'Tomorrow-Night-Bright' | colorscheme Tomorrow-Night-Bright | endif
 call setqflist([])
@@ -48,12 +48,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 68 - ((16 * winheight(0) + 24) / 49)
+let s:l = 68 - ((0 * winheight(0) + 31) / 62)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
 68
-normal! 024l
+normal! 037l
 tabedit views/wassup_login.html
 set splitbelow splitright
 set nosplitbelow
@@ -70,7 +70,7 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 1 - ((0 * winheight(0) + 24) / 49)
+let s:l = 1 - ((0 * winheight(0) + 31) / 62)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
@@ -86,8 +86,8 @@ set nosplitbelow
 set nosplitright
 wincmd t
 set winheight=1 winwidth=1
-exe '1resize ' . ((&lines * 2 + 26) / 52)
-exe '2resize ' . ((&lines * 46 + 26) / 52)
+exe '1resize ' . ((&lines * 3 + 32) / 65)
+exe '2resize ' . ((&lines * 58 + 32) / 65)
 argglobal
 enew
 setlocal fdm=manual
@@ -109,15 +109,15 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 220 - ((0 * winheight(0) + 23) / 46)
+let s:l = 220 - ((0 * winheight(0) + 29) / 58)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
 220
 normal! 04l
 wincmd w
-exe '1resize ' . ((&lines * 2 + 26) / 52)
-exe '2resize ' . ((&lines * 46 + 26) / 52)
+exe '1resize ' . ((&lines * 3 + 32) / 65)
+exe '2resize ' . ((&lines * 58 + 32) / 65)
 tabedit wassup.py
 set splitbelow splitright
 set nosplitbelow
@@ -134,7 +134,7 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 553 - ((20 * winheight(0) + 24) / 49)
+let s:l = 553 - ((25 * winheight(0) + 31) / 62)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
@@ -156,7 +156,7 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 67 - ((27 * winheight(0) + 24) / 49)
+let s:l = 67 - ((34 * winheight(0) + 31) / 62)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
@@ -178,7 +178,7 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 26 - ((17 * winheight(0) + 24) / 49)
+let s:l = 26 - ((22 * winheight(0) + 31) / 62)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
