@@ -1,2 +1,0 @@
-# vimfiles
-my vim files
