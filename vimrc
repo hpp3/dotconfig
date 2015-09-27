@@ -1,4 +1,4 @@
-call pathogen#infect()
+call pathogen#infect() 
 set cindent
 set tabstop=4
 set shiftwidth=4
@@ -15,12 +15,12 @@ map <C-n> <C-w>l
 colorscheme Tomorrow-Night-Bright
 syntax on
 filetype plugin indent on
-let mapleader = "," 
+let mapleader = ","
 let g:EasyMotion_leader_key = '<Leader>'
 "let g:airline_powerline_fonts = 1
-let g:airline#extensions#tabline#enabled = 0 
+let g:airline#extensions#tabline#enabled = 0
 let g:airline_theme='tomorrow'
-let g:airline#extensions#syntastic#enabled = 1 
+let g:airline#extensions#syntastic#enabled = 1
 let g:SuperTabDefaultCompletionType = "context"
 hi TabLineFill ctermfg=236
 hi TabLine ctermfg=236 ctermbg=White
@@ -39,7 +39,7 @@ inoremap <C-tab>   <Esc>:tabnext<CR>i
 inoremap <C-t>     <Esc>:tabnew<CR>
 "nnoremap gc N//<Enter>c//e<Enter>
 nnoremap g<Space> :noh<Enter>
-let g:rbpt_colorpairs = [ 
+let g:rbpt_colorpairs = [
     \ ['darkmagenta', 'DarkOrchid3'],
     \ ['blue',    'firebrick3'],
     \ ['darkcyan',    'SeaGreen3'],
@@ -52,9 +52,11 @@ let g:rbpt_colorpairs = [
     \ ['darkred',     'DarkOrchid3'],
     \ ]
 let g:rbpt_max = 30
-let g:rbpt_loadcmd_toggle = 0 
+let g:rbpt_loadcmd_toggle = 0
 let g:session_autoload = 'yes'
 let g:session_autosave = 'yes'
+let g:syntastic_cpp_compiler_options = ' -std=c++0x'
+let c_no_curly_error=1
 au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
@@ -66,8 +68,6 @@ imap <c-[>OH <Esc>^i
 map Q za
 imap kj <Esc>
 map <c-b> <c-]>
-noremap <c-[>H ^
+noremap <c-[>H ^ 
 noremap <c-[>[F $
 let g:SuperTabDefaultCompletionType = "<C-X><C-O>"
-let g:session_autoload = 'yes'
-let g:session_autosave = 'yes'
