@@ -10,6 +10,7 @@ set incsearch
 set hlsearch
 set backspace=2
 set mouse=a
+set modeline
 map <C-d> <C-w>h
 map <C-n> <C-w>l
 colorscheme Tomorrow-Night-Bright
